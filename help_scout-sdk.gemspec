@@ -31,9 +31,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'activesupport'
-  spec.add_dependency 'faraday', '>= 0.10', '< 2.0'
-  spec.add_dependency 'faraday_middleware', '>= 0.10.1', '< 2.0'
-  spec.required_ruby_version = '>= 2.3'
+  spec.add_dependency 'faraday', '>= 2', '< 3'
+  spec.required_ruby_version = '>= 3.0'
 
   spec.add_development_dependency 'awesome_print', '~> 1.8'
   spec.add_development_dependency 'bundler', '~> 2.0'
@@ -41,7 +40,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'byebug'
   spec.add_development_dependency 'dotenv', '~> 2.2'
   spec.add_development_dependency 'pry'
-  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rubocop', '~> 0.70'
   spec.add_development_dependency 'vcr', '~> 5.0'
